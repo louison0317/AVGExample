@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MyStory_room_insure">
+
+    <FrameLayout
+        android:id="@+id/containerFrameLayout"
+        android:layout_width="540dp"
+        android:layout_height="960dp">
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="350dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="400dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="450dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_clear"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="500dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="350dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="400dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="450dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="500dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="350dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="400dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="450dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/button_enter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="500dp"
+            android:background="#00000000"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/insure" />
+
+        <TextView
+            android:id="@+id/show"
+            android:layout_width="164dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="301dp"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

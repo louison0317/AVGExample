@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.edu.scu.avgexample">
+
+    <application
+        android:name=".framework.KWAvgApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/scray_icon"
+        android:label="旅店驚魂"
+        android:roundIcon="@mipmap/scray_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".End_mad"></activity>
+        <activity android:name=".End_save_nogun" />
+        <activity android:name=".End_save" />
+        <activity android:name=".End_nosave_nogun" />
+        <activity android:name=".End_nosave" />
+        <activity android:name=".MyStory_baseroom_nogun_Utils" />
+        <activity android:name=".MyStory_base_room_nogun" />
+        <activity android:name=".MyStory_base_room_Utils" />
+        <activity android:name=".MyStory_baseroom" />
+        <activity android:name=".MyStory_final_Utils" />
+        <activity android:name=".MyStory_final_nogun_Utils" />
+        <activity android:name=".MyStory_4_Utils" />
+        <activity android:name=".MyStory_4" />
+        <activity android:name=".MyStory_room_insure_Utils" />
+        <activity android:name=".MyStory_room_Utils" />
+        <activity android:name=".MyStory_room_insure" />
+        <activity android:name=".MyStory_room" />
+        <activity android:name=".MyStory_Second_day_Utils" />
+        <activity android:name=".MyStory_Second_day" />
+        <activity android:name=".MyStory_Firstday_Utils" />
+        <activity android:name=".MyStory_Firstday" />
+        <activity android:name=".MainActivity_beginning" />
+        <activity android:name=".MyScene1Activity" />
+        <activity android:name=".MainActivity">
+
+
+
+        </activity>
+        <activity android:name=".sample.SampleSplashActivity" >  //過場動畫
+
+        </activity>
+        <activity android:name=".sample.SampleCopyrightActivity" />
+        <activity android:name=".sample.SampleScene_1_Activity" />
+        <activity android:name=".sample.SampleScene_2_Activity" />
+        <activity android:name=".sample.SampleEndScene_1_Activity" />
+        <activity android:name=".sample.SampleScene_3_Activity" />
+        <activity android:name=".sample.SampleScene_4_Activity" />
+        <activity android:name=".sample.SampleScene_5_Activity" />
+        <activity android:name=".sample.SampleScene_6_Activity" />
+        <activity android:name=".sample.SampleScene_7_Activity" />
+        <activity android:name=".sample.SampleEndScene_2_Activity" />
+        <activity android:name=".sample.SampleEndScene_3_Activity" />
+        <activity android:name=".sample.SampleMenuSwitchSceneActivity" />
+        <activity android:name=".sample.SampleMenuMainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9964618295477835~2689386481" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
